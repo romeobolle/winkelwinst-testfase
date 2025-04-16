@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Winkelwinst Testfase</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      background-color: #FCFBF7;
+      font-family: sans-serif;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .form-wrapper {
+      width: 90%;
+      max-width: 640px;
+      background: white;
+      padding: 48px;
+      border-radius: 24px;
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.05);
+      box-sizing: border-box;
+      text-align: center;
+    }
+
+    .form-logo {
+      width: 64px;
+      height: 64px;
+      margin: 0 auto 24px;
+    }
+
+    .form-title {
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: #292929;
+      margin-bottom: 32px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="form-wrapper">
+    <img src="Logo.png" alt="Winkelwinst logo" class="form-logo" />
+    <div class="form-title">Schrijf je in voor de Winkelwinst testfase</div>
+    <div data-is-popup="false" data-circle-form-uid="d6241f3a"></div>
+  </div>
+
+  <script>
+    if (!window.circleFormsScriptLoaded) {
+      window.circleFormsScriptLoaded = true;
+      const script = document.createElement('script');
+      script.src = 'https://mijn.winkelwinst.com/external/form-embeds.js';
+      script.defer = true;
+      document.head.appendChild(script);
+    }
+  </script>
+
+</body>
+</html>
